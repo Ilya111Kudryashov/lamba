@@ -1,7 +1,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap'); */
 @font-face {
-    font-family: 'Impact', sans-serif;
-    src: url('../fonts/impact.woff2');
+    /* font-family: 'Impact', sans-serif;
+    src: url('../fonts/impact.woff2') format('woff2'); */
+    font-family: 'Impact LT Std';
+    src: url('../fonts/font2/ImpactLTStd.eot');
+    src: local('Impact LT Std Roman'), local('ImpactLTStd'),
+        url('../font/font2/ImpactLTStd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font2/ImpactLTStd.woff2') format('woff2'),
+        url('../fonts/font2/ImpactLTStd.woff') format('woff'),
+        url('../fonts/font2/ImpactLTStd.ttf') format('truetype');
 }
 html{
     box-sizing: border-box;
