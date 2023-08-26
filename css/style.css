@@ -2,14 +2,22 @@
 @font-face {
     /* font-family: 'Impact', sans-serif;
     src: url('../fonts/impact.woff2') format('woff2'); */
-    font-family: 'Impact LT Std';
+    /* font-family: 'Impact LT Std';
     src: url('../fonts/font2/ImpactLTStd.eot');
     src: local('Impact LT Std Roman'), local('ImpactLTStd'),
         url('../font/font2/ImpactLTStd.eot?#iefix') format('embedded-opentype'),
         url('../fonts/font2/ImpactLTStd.woff2') format('woff2'),
         url('../fonts/font2/ImpactLTStd.woff') format('woff'),
-        url('../fonts/font2/ImpactLTStd.ttf') format('truetype');
-}
+        url('../fonts/font2/ImpactLTStd.ttf') format('truetype'); */
+
+        font-family: 'Impact';
+        src: local('Impact Regular'), local('Impact-Regular'),
+            url('../fonts/font3/ImpactLTStd.woff2') format('woff2'),
+            url('../fonts/font3/ImpactLTStd.woff') format('woff'),
+            url('../fonts/font3/ImpactLTStd.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
